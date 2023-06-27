@@ -31,14 +31,14 @@ The following is command to run Send Text/Send Audio Voice Test Suite
 ❯ python3 voice_text.py -v -b <mqtt-broker-ip> -I <dab-device-id>
 ```
 
-### 3. End to End Cobalt Test Suite ###
+### 3. End to End YouTube Test Suite ###
 
 This end to end intergration test focuses on a mix of key presses and voice controls.
 
-The following is command to run End to End Cobalt Test Suit
+The following is command to run End to End YouTube Test Suit
 
 ```
-❯ python3 end_to_end_cobalt.py -v -b <mqtt-broker-ip> -I <dab-device-id>
+❯ python3 end_to_end_YouTube.py -v -b <mqtt-broker-ip> -I <dab-device-id>
 ```
 
 

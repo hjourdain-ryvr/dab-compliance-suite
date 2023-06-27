@@ -6,7 +6,7 @@ def restart(test_result, durationInMs=0,expectedLatencyMs=0):
     dab_response_validator.validate_dab_response_schema(test_result.response)
     print("restarting...wait 60s...",end='',flush=True)
     sleep(60)
-    return YesNoQuestion(test_result, "Cobalt re-started?")
+    return YesNoQuestion(test_result, "YouTube re-started?")
 
 def get(test_result, durationInMs=0,expectedLatencyMs=0):
     dab_response_validator.validate_get_system_settings_response_schema(test_result.response)
